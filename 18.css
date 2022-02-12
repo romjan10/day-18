@@ -1,0 +1,30 @@
+h2{
+    color: red;
+}
+
+.first-div{
+    height: 200px;
+    width: 200px;
+    background: blue;
+}
+.first-div:hover{
+    background: orange;
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+.header-menu li:first-child a{
+    color: red;
+
+}
+.header-menu li:last-child a{
+    color: red;
+
+}
+.header-menu li:nth-child(1) a{
+    color: brown;
+}
+.header-menu li:nth-child(2) a{
+    color: rgb(142, 167, 33);
+}
